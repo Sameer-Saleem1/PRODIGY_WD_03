@@ -7,7 +7,7 @@
 This repository contains the completed task assigned to me by Prodigy InfoTech as part of my internship. The task involved creating a Tic Tac Toe game with a beautiful UI using HTML, CSS, and JavaScript.
 
 ### Task Details
-- **Task Name:** Tic Tac Toe with Beautiful UI
+- **Task Name:** Tic Tac Toe with an attractive UI
 - **Assigned By:** Prodigy InfoTech
 - **Duration:** 01-Feb-2024 to 29-Feb-2024
 
