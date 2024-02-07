@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: linear-gradient(90deg, #d161ff, #8052ec); */
+  background-color: #191913;
+  color: white;
+}
+
+#container {
+  margin-top: 4rem;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  background-color: #ffffc7;
+  font-weight: 900;
+}
+
+.redbox {
+  color: #f74005;
+}
+.greenbox {
+  color: #07eeab;
+}
+
+.reset-btn,
+#new-btn {
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: linear-gradient(45deg, #eee, #333);
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.heading {
+  margin: 1rem auto;
+  font-size: 6vmin;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.msg {
+  font-size: 6vmin;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.win-container {
+  margin: 2rem auto;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-direction: column;
+}
+
+.hide {
+  display: none;
+}
